@@ -1,8 +1,5 @@
 package studentCoursesBackup.myTree;
 
-/**
- * @author ambarmodi
- */
 public interface ObserverI {
-	
+	void update(Operation op, String course);
 }
